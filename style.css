@@ -68,10 +68,17 @@ button {
   justify-content: center;
 }
 
-/*About section*/
+#about,
+#discord,
+#contact {
+  padding: 48px 0;
+}
+
+/*
+About section
+*/
 
 #about {
-  padding: 48px 0;
   background-color: #f8ffdc;
 }
 
@@ -108,4 +115,12 @@ about__img--wrapper,
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 24px;
+}
+
+/*
+Discord section
+*/
+
+#discord {
+  background-color: #cefeff;
 }
